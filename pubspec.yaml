@@ -1,0 +1,23 @@
+name: version_policy
+description: >-
+  A framework-agnostic version policy engine for determining whether an
+  application update is unnecessary, optional, or required based on the
+  upgrade path between a current version and a set of releases.
+version: 0.1.0-dev
+repository: https://github.com/manuelzzz/version_policy
+issue_tracker: https://github.com/manuelzzz/version_policy/issues
+topics:
+  - version
+  - semver
+  - update
+  - policy
+
+environment:
+  sdk: ^3.13.0
+
+dependencies:
+  pub_semver: ^2.1.4
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.25.0
